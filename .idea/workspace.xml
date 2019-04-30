@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8312c559-d991-4974-a21b-9cc7df3a08c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingII.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/Converters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/authentication/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/authentication/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/authentication/hash/HashFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/authentication/hash/SHA256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/comparators/UserNameComparatorByTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/comparators/UsernameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/dataBase/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/dataBase/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/dataBase/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/PasswordTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/UserTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/encryption/CustomCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/encryption/EncoderDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/AbstractROT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/ROT13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/ROT18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/exceptions/DatabaseIntegrityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/validators/Validators.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sda/validators/Validators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/passwords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EncoderDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/ConvertersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/authentication/hash/HashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/comparators/UserNameComparatorByTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/dataBase/DatabaseManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/validators/PasswordValidatorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/validators/UsernameValidatorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sda/validators/ValidatorsTestWithSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ProgrammingII.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/ApplicationInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/Converters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/authentication/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/authentication/AuthServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/authentication/hash/HashFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/authentication/hash/SHA256.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/comparators/UserNameComparatorByTitle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/comparators/UsernameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/dataBase/DatabaseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/dataBase/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/dataBase/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/dataBase/tables/PasswordTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/dataBase/tables/UserTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/encryption/CustomCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/encryption/EncoderDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/encryption/rots/AbstractROT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/encryption/rots/ROT13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/encryption/rots/ROT18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/exceptions/DatabaseIntegrityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/exceptions/UserNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sda/validators/Validators.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/passwords.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-collections4-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/commons-text-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency-jars/opencsv-4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sda-password-manager-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/EncoderDecoderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-EncoderDecoderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.ConvertersTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.authentication.hash.HashTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.comparators.UserNameComparatorByTitleTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.dataBase.DatabaseManagerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.validators.PasswordValidatorsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.sda.validators.UsernameValidatorsTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.ConvertersTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.authentication.hash.HashTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.comparators.UserNameComparatorByTitleTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.dataBase.DatabaseManagerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.validators.PasswordValidatorsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.sda.validators.UsernameValidatorsTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/EncoderDecoderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/ProgrammingII.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/ConvertersTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/authentication/hash/HashTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/dataBase/DatabaseManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/validators/PasswordValidatorsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/validators/UsernameValidatorsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/sda/validators/ValidatorsTestWithSuit.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="232" column="16" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#12920#12921#0" expanded="true" />
+                <element signature="e#12976#12977#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/passwords.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/users.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/DatabaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#DatabaseManager#0;class#DatabaseManager#0" />
+                <element signature="method#getAllPasswords#0;class#DatabaseManager#0" />
+                <element signature="e#5250#5251#0" expanded="true" />
+                <element signature="e#5281#5282#0" expanded="true" />
+                <element signature="method#insertUser#0;class#DatabaseManager#0" />
+                <element signature="method#getAllUsers#0;class#DatabaseManager#0" />
+                <element signature="method#findUserByName#0;class#DatabaseManager#0" />
+                <element signature="method#isUserExistInDataBase#0;class#DatabaseManager#0" />
+                <element signature="method#isUserExistByEmail#0;class#DatabaseManager#0" />
+                <element signature="method#removeUser#0;class#DatabaseManager#0" />
+                <element signature="method#insertUsersList#0;class#DatabaseManager#0" />
+                <element signature="method#cleanDatabase#0;class#DatabaseManager#0" />
+                <element signature="method#changePassword#0;class#DatabaseManager#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="method#removeUser#0;class#UserServiceImpl#0" />
+                <element signature="method#addUser#0;class#UserServiceImpl#0" />
+                <element signature="method#findUserByName#0;class#UserServiceImpl#0" />
+                <element signature="method#isUserExistInDataBase#0;class#UserServiceImpl#0" />
+                <element signature="method#findUserHashByName#0;class#UserServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scanner</find>
+      <find>console</find>
+      <find>nextInt</find>
+      <find>sha</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/EncoderDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Encoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AbstractROT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ROT18.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ROT13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Validators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApplicationInstance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ValidatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validators/ValidatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validators/UserValidatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validators/ValidatorsTestWithSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validators/UsernameValidatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/Validators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/validators/Validators.java" />
+        <option value="$PROJECT_DIR$/src/test/java/validators/PasswordValidatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/AbstractROT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/comparators/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/comparators/UsernameComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/comparators/UserNameComparatorByTitle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/comparators/UserNameComparatorByTitleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EncoderDecoderTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/DecimalToBinaryConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/ConvertersTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/ConvertersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/Converters.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/hash/SHA256Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/hash/HashFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/hash/SHA256.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/hash/HashTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/AuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/AuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/DatebaseManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/sda/dataBase/DatabaseManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/exceptions/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/UserTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/exceptions/DatabaseIntegrityException.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/users.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/authentication/AuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/PasswordTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/dataBase/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/passwords.csv" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sda-password-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sda-password-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="900" />
+    <option name="y" value="-23" />
+    <option name="width" value="1290" />
+    <option name="height" value="693" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="dataBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgrammingII" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingII" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="dataBase" type="462c0819:PsiDirectoryNode" />
+              <item name="tables" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556619344019" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programming1" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.sda.dataBase" />
+      <recent name="org.sda.hash" />
+      <recent name="org.sda" />
+      <recent name="org.sda.comparators" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MojeProgramy\ProgrammingII\src\main\java\validators" />
+      <recent name="D:\MojeProgramy\ProgrammingII\src\main\java\org\sda" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.sda.dataBase" />
+      <recent name="org.sda" />
+      <recent name="org.sda.hash" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DatabaseManagerTest.singletonTest">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProgrammingII" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sda.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sda" />
+      <option name="MAIN_CLASS_NAME" value="org.sda.ConvertersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertersTest.stringToHexLetterToOctal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sda.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sda" />
+      <option name="MAIN_CLASS_NAME" value="org.sda.ConvertersTest" />
+      <option name="METHOD_NAME" value="stringToHexLetterToOctal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertersTest.stringToHexLetterToOctal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sda.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sda" />
+      <option name="MAIN_CLASS_NAME" value="org.sda.ConvertersTest" />
+      <option name="METHOD_NAME" value="stringToHexLetterToOctal2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseManagerTest.singletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sda.dataBase.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sda.dataBase" />
+      <option name="MAIN_CLASS_NAME" value="org.sda.dataBase.DatabaseManagerTest" />
+      <option name="METHOD_NAME" value="singletonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTest.SHA256Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingII" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sda.authentication.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sda.authentication.hash" />
+      <option name="MAIN_CLASS_NAME" value="org.sda.authentication.hash.HashTest" />
+      <option name="METHOD_NAME" value="SHA256Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DatabaseManagerTest.singletonTest" />
+        <item itemvalue="JUnit.HashTest.SHA256Test" />
+        <item itemvalue="JUnit.ConvertersTest" />
+        <item itemvalue="JUnit.ConvertersTest.stringToHexLetterToOctal2" />
+        <item itemvalue="JUnit.ConvertersTest.stringToHexLetterToOctal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8312c559-d991-4974-a21b-9cc7df3a08c7" name="Default Changelist" comment="" />
+      <created>1553933804057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553933804057</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConvertersTest_stringToHexLetterToOctal - 2019.04.07 at 13h 52m 01s.xml">
+      <configuration name="ConvertersTest.stringToHexLetterToOctal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertersTest - 2019.04.07 at 13h 56m 26s.xml">
+      <configuration name="ConvertersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertersTest_stringToHexLetterToOctal2 - 2019.04.07 at 13h 59m 16s.xml">
+      <configuration name="ConvertersTest.stringToHexLetterToOctal2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertersTest_stringToHexLetterToOctal2 - 2019.04.07 at 14h 00m 20s.xml">
+      <configuration name="ConvertersTest.stringToHexLetterToOctal2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertersTest - 2019.04.07 at 14h 00m 27s.xml">
+      <configuration name="ConvertersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashTest_SHA256Test - 2019.04.07 at 14h 15m 00s.xml">
+      <configuration name="HashTest.SHA256Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashTest_SHA256Test - 2019.04.07 at 14h 15m 32s.xml">
+      <configuration name="HashTest.SHA256Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashTest_SHA256Test - 2019.04.07 at 14h 17m 32s.xml">
+      <configuration name="HashTest.SHA256Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashTest_SHA256Test - 2019.04.07 at 14h 18m 28s.xml">
+      <configuration name="HashTest.SHA256Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseManagerTest_singletonTest - 2019.04.07 at 14h 37m 20s.xml">
+      <configuration name="DatabaseManagerTest.singletonTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49718574" visible="true" weight="0.18120806" />
+      <window_info id="Structure" order="1" sideWeight="0.50281423" side_tool="true" weight="0.33825505" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" sideWeight="0.4990619" weight="0.3281879" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.852349" weight="0.28328612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.91006714" visible="true" weight="0.5524079" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.08993289" side_tool="true" visible="true" weight="0.5524079" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Encryption.java" />
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="5486" column="26" selection-start-line="5486" selection-start-column="26" selection-end-line="5486" selection-end-column="26" />
+          <folding>
+            <element signature="e#190944#190945#0" expanded="true" />
+            <element signature="e#190987#190988#0" expanded="true" />
+            <element signature="e#197464#197465#0" expanded="true" />
+            <element signature="e#197503#197504#0" expanded="true" />
+            <element signature="e#202331#202332#0" expanded="true" />
+            <element signature="e#202371#202372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/validators/ValidatorsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/validators/ValidatorsTestWithSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/validators/UsernameValidatorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rots.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/validators/PasswordValidatorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/encryption/CustomCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/comparators/UserNameComparatorByTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/comparators/UserNameComparatorByTitleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="32" column="1" selection-start-line="12" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/ConvertersTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/ConvertersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/Converters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#stringToSevenSystem#0;class#Converters#0" />
+            <element signature="method#decimalToBinaryConverter#0;class#Converters#0" />
+            <element signature="method#stringToIntArr#0;class#Converters#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/authentication/hash/HashTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/sda/dataBase/DatabaseManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/comparators/UsernameComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="779" column="34" selection-start-line="779" selection-start-column="34" selection-end-line="779" selection-end-column="34" />
+          <folding>
+            <element signature="e#10280#10281#0" expanded="true" />
+            <element signature="e#10314#10315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5649">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/validators/Validators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/authentication/hash/HashFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/exceptions/DatabaseIntegrityException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/exceptions/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/authentication/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/authentication/hash/SHA256.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/UserTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/authentication/AuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="3097" column="25" selection-start-line="3097" selection-start-column="25" selection-end-line="3097" selection-end-column="25" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#121727#121728#0" expanded="true" />
+            <element signature="e#121769#121770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/ROT18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/encryption/EncoderDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/ROT13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/encryption/rots/AbstractROT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EncoderDecoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/users.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="method#removeUser#0;class#UserServiceImpl#0" />
+            <element signature="method#addUser#0;class#UserServiceImpl#0" />
+            <element signature="method#findUserByName#0;class#UserServiceImpl#0" />
+            <element signature="method#isUserExistInDataBase#0;class#UserServiceImpl#0" />
+            <element signature="method#findUserHashByName#0;class#UserServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/tables/PasswordTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1499">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="35" />
+          <folding>
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DatabaseManager#0;class#DatabaseManager#0" />
+            <element signature="method#getAllPasswords#0;class#DatabaseManager#0" />
+            <element signature="e#5250#5251#0" expanded="true" />
+            <element signature="e#5281#5282#0" expanded="true" />
+            <element signature="method#insertUser#0;class#DatabaseManager#0" />
+            <element signature="method#getAllUsers#0;class#DatabaseManager#0" />
+            <element signature="method#findUserByName#0;class#DatabaseManager#0" />
+            <element signature="method#isUserExistInDataBase#0;class#DatabaseManager#0" />
+            <element signature="method#isUserExistByEmail#0;class#DatabaseManager#0" />
+            <element signature="method#removeUser#0;class#DatabaseManager#0" />
+            <element signature="method#insertUsersList#0;class#DatabaseManager#0" />
+            <element signature="method#cleanDatabase#0;class#DatabaseManager#0" />
+            <element signature="method#changePassword#0;class#DatabaseManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/ApplicationInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="232" column="16" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12920#12921#0" expanded="true" />
+            <element signature="e#12976#12977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/passwords.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sda/dataBase/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
